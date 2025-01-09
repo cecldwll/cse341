@@ -1,17 +1,17 @@
-const classRoute = (req, res) => {
-    res.send("CSE 341 Web Services");
+const emilyRoute = (req, res) => {
+    res.send("Emily Caldwell");
 };
 
-const helloRoute = (req, res) => {
-    res.send("Hello World!");
+const morganRoute = (req, res) => {
+    res.send("Morgan Chappell");
 };
 
-const goodbyeRoute = (req, res) => {
-    res.send("Goodbye World!");
+const tyRoute = (req, res) => {
+    res.send("Ty Harvey");
 };
 
 module.exports = {
-    classRoute,
-    helloRoute,
-    goodbyeRoute
-};
+    emilyRoute,
+    morganRoute,
+    tyRoute
+}
